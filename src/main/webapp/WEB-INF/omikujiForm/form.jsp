@@ -14,8 +14,8 @@
 </head>
 <body>
 	<div class="container">
-		<h1>Omikuji Form</h1>
 		<form action="/processform" method="post">
+			<h1>Omikuji Form</h1>
 			<div class= "mb-3">
 				<div>
 					<label for="number">Pick any number from 5 to 25</label>
@@ -24,7 +24,7 @@
 					<input type= "number" name= "number"/>
 				</div>
 			</div>
-			<div>
+			<div class= "mb-3">
 				<div>
 					<label for="city">Enter the name of any city.</label>
 				</div>
@@ -32,7 +32,7 @@
 					<input type= "text" name= "city"/>
 				</div>
 			</div>
-			<div>
+			<div class= "mb-3">
 				<div>
 					<label for="person">Enter the name of any real person</label>
 				</div>
@@ -40,7 +40,7 @@
 					<input type= "text" name= "person"/>
 				</div>
 			</div>
-			<div>
+			<div class= "mb-3">
 				<div>
 					<label for="hobby">Enter professional endeavor or hobby</label>
 				</div>
@@ -48,7 +48,7 @@
 					<input type= "text" name= "hobby"/>
 				</div>
 			</div>
-			<div>
+			<div class= "mb-3">
 				<div>
 					<label for="thing">Enter any type of living thing.</label>
 				</div>
@@ -56,7 +56,7 @@
 					<input type= "text" name= "thing"/>
 				</div>
 			</div>
-			<div>
+			<div class= "mb-3">
 				<div>
 					<label for="comment">Say something nice to someone:</label>
 				</div>
