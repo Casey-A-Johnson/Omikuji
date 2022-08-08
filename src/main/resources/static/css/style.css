@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+
+.container{
+	width: 60%;
+	margin: 0px auto;
+}
+
+.displayBody{
+	background-color: blue;
+}
+
+.container2{
+	width: 60%;
+	margin: 0px auto;
+	display: flex;
+	align-items: center;
+}
+
+.textBox{
+	width: 25%;
+	margin: 0px auto;
+	margin-top: 100px;
+	border: 2px solid black;
+	padding:20px;
+	background-color: red;
+}
+
+.textBox h2{
+	color: white;
+}
